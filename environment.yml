@@ -1,0 +1,27 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: datitos_Faltantes
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  - matplotlib==3.5.1
+  - missingno
+  - nbdime
+  - numpy
+  - pandas
+  - pyreadr
+  - pip
+  - plotly
+  - pyjanitor
+  - pyprojroot
+  - python=3.9
+  - seaborn
+  - session-info
+  - upsetplot==0.6.1
+  
